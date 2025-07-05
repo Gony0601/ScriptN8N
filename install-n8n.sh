@@ -3,7 +3,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 #------------------------------------------------------
-# install-n8n.sh
+# install-n8n.sh    gony
 # 1) Instala Docker & Docker Compose si faltan
 # 2) Despliega n8n en Docker (modo LOCAL o VPS con -d dominio)
 # 3) Configura Nginx/HTTPS/firewall en VPS
